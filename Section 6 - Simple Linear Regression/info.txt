@@ -1,0 +1,17 @@
+simple_linear_regression.ipynb is main file
+salary_data is dataset of 2 col. - YearsExperience, Salary & 30 records
+-> 	find correlation, simple lin. modal to find best fitting line for this relationship, can give modal for predicting salary to company
+
+# 	Simple linear Regression
+// see Screenshot (2612) & Screenshot (2614)
+from Screenshot (2614)-> base salary would be 30K which is bo
+b1 is slope of line & is extended, plotted on Y-axis to find salary.
+
+# 	how Simple linear Regression find best fitting line
+uses OLE to find best fitting line
+// see Screenshot (2615)
+yi is actual sal. & ŷi is modal/predicted sal.
+OLE takes sum of all these (yi-ŷi) & find min. of them which is best fit
+------------------------------------------------------------------------
+we will train modal on train set
+test its performance on test set
